@@ -1,6 +1,4 @@
 # Autoencoders-Generative-Deep-Learning
-Deep learning project exploring autoencoders and generative models for representation learning, reconstruction, and unsupervised neural network analysis.
-# Autoencoders-Generative-Deep-Learning
 ---
 Deep learning project exploring Autoencoders (AE), Variational Autoencoders (VAE), and Generative Adversarial Networks (GANs) for representation learning, image reconstruction, latent space modeling, and generative artificial intelligence.
 
@@ -139,6 +137,20 @@ The dataset is downloaded programmatically during notebook execution; therefore 
 - Generator + Discriminator Adversarial Training
 - Task: Generative Image Modeling
 
+---
+# Dataset Information
+
+This project uses the TensorFlow Datasets (TFDS) CelebA dataset.
+
+Source:
+
+```python
+tensorflow_datasets (tfds) — celeb_a
+```
+
+The dataset is downloaded programmatically during notebook execution.
+
+No local dataset files are required.
 ---
 
 ## Repository Structure
